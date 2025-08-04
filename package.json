@@ -1,9 +1,9 @@
 {
-  "name": "react-template",
+  "name": "memory-card-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://link-to-live-preview/your-repo-name",
+  "homepage": "https://cd-javier.github.io/memory-card-game",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
