@@ -19,3 +19,15 @@
   margin: 0 auto;
   gap: 1rem;
 }
+
+@media only screen and (max-height: 900px) {
+  .card-grid {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .card-grid {
+    max-width: 400px;
+  }
+}
