@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  border-radius: 1rem;
+}
+
+.card img {
+  border-radius: 0.5rem;
+}
+
+.card .title {
+  font-size: 0.75rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

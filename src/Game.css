@@ -1,0 +1,21 @@
+.game {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.score {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 1rem;
+}
